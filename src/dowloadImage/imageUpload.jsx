@@ -111,6 +111,7 @@ const ImageUploadTool = () => {
   return (
     <>
       <div className='image-upload-container'>
+        <h1>Tool SEO Video & Image</h1>
         <div>
           <input type='file' multiple onChange={handleImageChange} id='fileInput' className='input_file' accept='image/*' />
           <label htmlFor='fileInput' className='button_custom'>
